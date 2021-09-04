@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="houserent.MainController">
+   <children>
+      <Button fx:id="Owner_btn" layoutX="162.0" layoutY="177.0" mnemonicParsing="false" onAction="#Owner" text="Owner" />
+      <Button fx:id="Customer_btm" layoutX="390.0" layoutY="177.0" mnemonicParsing="false" onAction="#Customer" text="Customer" />
+      <Label fx:id="Houserent_lbl" layoutX="99.0" layoutY="47.0" prefHeight="77.0" prefWidth="369.0" text="House Rent Management System">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

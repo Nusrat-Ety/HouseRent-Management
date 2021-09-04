@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="houserent.OwnerpageController">
+   <children>
+      <Label fx:id="Ownerpage_lbl" layoutX="232.0" layoutY="62.0" prefHeight="21.0" prefWidth="132.0" text="Owner Page" />
+      <Label fx:id="Floor_lbl" layoutX="78.0" layoutY="103.0" prefHeight="21.0" prefWidth="42.0" text="Floor" />
+      <TextField fx:id="floor_field" layoutX="158.0" layoutY="98.0" />
+      <Label fx:id="Unit_lbl" layoutX="82.0" layoutY="147.0" text="Unit" />
+      <Label fx:id="Rent_lbl" layoutX="78.0" layoutY="190.0" text="Rent" />
+      <Label fx:id="Month_lbl" layoutX="78.0" layoutY="222.0" text="Month" />
+      <Label fx:id="Details_lbl" layoutX="78.0" layoutY="259.0" text="Details" />
+      <Label fx:id="Due_lbl" layoutX="83.0" layoutY="314.0" text="Due" />
+      <TextField fx:id="Unit_field" layoutX="158.0" layoutY="132.0" />
+      <TextField fx:id="Rent_filed" layoutX="158.0" layoutY="175.0" />
+      <TextField fx:id="Month_filed" layoutX="158.0" layoutY="228.0" />
+      <TextField fx:id="Details_field" layoutX="169.0" layoutY="265.0" />
+      <TextField fx:id="Due_field" layoutX="169.0" layoutY="309.0" />
+      <Button fx:id="Reset_btn" layoutX="91.0" layoutY="405.0" mnemonicParsing="false" onAction="#Reset" text="Reset" />
+      <Button fx:id="Add_btn" layoutX="263.0" layoutY="397.0" mnemonicParsing="false" onAction="#Add" text="Add" />
+      <Button fx:id="Update_btn" layoutX="463.0" layoutY="405.0" mnemonicParsing="false" onAction="#Update" text="Update" />
+      <Button fx:id="ok_id" layoutX="506.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

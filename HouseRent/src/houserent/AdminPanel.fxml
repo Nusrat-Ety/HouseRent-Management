@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="houserent.AdminPanelController">
+   <children>
+      <Label layoutX="89.0" layoutY="126.0" />
+      <Label layoutX="91.0" layoutY="154.0" text="Unit" />
+      <Label layoutX="91.0" layoutY="190.0" text="Rent" />
+      <Label layoutX="90.0" layoutY="230.0" text="Month" />
+      <Label ellipsisString="" layoutX="90.0" layoutY="265.0" prefHeight="35.0" prefWidth="65.0" text="Details" />
+      <Label layoutX="89.0" layoutY="116.0" text="Floor" />
+      <Label layoutX="95.0" layoutY="308.0" prefHeight="21.0" prefWidth="34.0" text="Due" />
+      <Button fx:id="reset_btn" layoutX="112.0" layoutY="355.0" mnemonicParsing="false" onAction="#Reset" text="Reset" />
+      <Button fx:id="add_btn" layoutX="235.0" layoutY="355.0" mnemonicParsing="false" onAction="#Add" text="Add" />
+      <Button fx:id="up_btn" layoutX="372.0" layoutY="355.0" mnemonicParsing="false" onAction="#Update" text="Update" />
+      <Label layoutX="235.0" layoutY="47.0" text="Owner">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="floor_field" layoutX="207.0" layoutY="111.0" />
+      <TextField fx:id="Unit_field" layoutX="207.0" layoutY="160.0" />
+      <TextField fx:id="rent_filed" layoutX="207.0" layoutY="196.0" />
+      <TextField fx:id="Month_filed" layoutX="207.0" layoutY="236.0" />
+      <TextField fx:id="details_field" layoutX="207.0" layoutY="277.0" />
+      <TextField fx:id="due_field" layoutX="207.0" layoutY="319.0" />
+   </children>
+</AnchorPane>
